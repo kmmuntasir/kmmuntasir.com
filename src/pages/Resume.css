@@ -83,10 +83,8 @@
 }
 
 .contact-group svg {
-  stroke: #6b7280;
+  color: #6b7280;
   flex-shrink: 0;
-  width: 14px;
-  height: 14px;
 }
 
 .header-center {
@@ -131,10 +129,8 @@
 }
 
 .social-item svg {
-  stroke: #6b7280;
+  color: #6b7280;
   flex-shrink: 0;
-  width: 14px;
-  height: 14px;
 }
 
 /* Main Content Layout */
@@ -242,7 +238,7 @@
 }
 
 .exp-location svg {
-  stroke: #9ca3af;
+  color: #9ca3af;
 }
 
 .exp-details {
