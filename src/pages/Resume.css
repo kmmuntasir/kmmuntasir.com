@@ -8,47 +8,66 @@
   background: #f9fafb;
 }
 
-.action-buttons-container {
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
-  margin-bottom: 2rem;
-}
+
 
 .back-btn {
-  display: inline-flex;
+  position: fixed;
+  bottom: 2rem;
+  left: 2rem;
+  display: flex;
   align-items: center;
-  gap: 0.5rem;
+  justify-content: center;
+  width: 3.5rem;
+  height: 3.5rem;
   background: #6b7280;
   color: white;
   border: none;
-  padding: 0.75rem 1.5rem;
-  border-radius: 0.5rem;
+  border-radius: 50%;
   cursor: pointer;
-  font-size: 1rem;
-  transition: background-color 0.2s;
+  font-size: 1.25rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  z-index: 1000;
 }
 
 .back-btn:hover {
   background: #4b5563;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+.back-btn span {
+  display: none;
 }
 
 .print-btn {
-  display: inline-flex;
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  display: flex;
   align-items: center;
-  gap: 0.5rem;
+  justify-content: center;
+  width: 3.5rem;
+  height: 3.5rem;
   background: #3b82f6;
   color: white;
   border: none;
-  padding: 0.75rem 1.5rem;
-  border-radius: 0.5rem;
+  border-radius: 50%;
   cursor: pointer;
-  font-size: 1rem;
-  transition: background-color 0.2s;
+  font-size: 1.25rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  z-index: 1000;
 }
 
 .print-btn:hover {
   background: #2563eb;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+.print-btn span {
+  display: none;
 }
 
 .resume-content {
@@ -190,6 +209,7 @@
 
 .exp-title-company {
   flex: 1;
+  font-size: 0.85rem;
 }
 
 .exp-title-line strong {
@@ -415,6 +435,8 @@
   .no-print {
     display: none !important;
   }
+
+
 
   .resume-header {
     padding: 1rem 1.5rem 0.75rem 1.5rem;

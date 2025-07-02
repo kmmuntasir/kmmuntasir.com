@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { MapPin, Mail, Phone, Globe, Github, Linkedin, ArrowLeft, Printer } from 'lucide-react';
+import { MapPin, Mail, Phone, Globe, Github, Linkedin, ArrowLeft, Printer, Download } from 'lucide-react';
 import basicData from '../data/basic.json';
 import experienceData from '../data/updated_experience.json';
 import skillsData from '../data/skills.json';
@@ -10,14 +10,33 @@ import './Resume.css';
 
 const Resume = () => {
   const [isClient, setIsClient] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
   const navigate = useNavigate();
 
   useEffect(() => {
     setIsClient(true);
+    
+    const checkMobile = () => {
+      setIsMobile(window.innerWidth <= 768);
+    };
+    
+    checkMobile();
+    window.addEventListener('resize', checkMobile);
+    
+    return () => window.removeEventListener('resize', checkMobile);
   }, []);
 
   const handlePrint = () => {
     window.print();
+  };
+
+  const handleDownload = () => {
+    const link = document.createElement('a');
+    link.href = '/muntasir-resume.pdf';
+    link.download = 'muntasir-resume.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
   };
 
   const handleGoBack = () => {
@@ -32,17 +51,18 @@ const Resume = () => {
 
   return (
     <div className="resume-container">
-      {/* Action Buttons - only visible on screen */}
-      <div className="action-buttons-container no-print">
-        <button onClick={handleGoBack} className="back-btn">
-          <ArrowLeft size={20} />
-          Go Back to Site
-        </button>
-        <button onClick={handlePrint} className="print-btn">
-          <Printer size={20} />
-          Print Resume
-        </button>
-      </div>
+      {/* Floating Action Buttons */}
+      <button onClick={handleGoBack} className="back-btn no-print">
+        <ArrowLeft size={20} />
+        <span>Go Back to Site</span>
+      </button>
+      <button 
+        onClick={isMobile ? handleDownload : handlePrint} 
+        className="print-btn no-print"
+      >
+        {isMobile ? <Download size={20} /> : <Printer size={20} />}
+        <span>{isMobile ? 'Download Resume' : 'Print Resume'}</span>
+      </button>
 
       {/* Resume Content */}
       <div className="resume-content">
