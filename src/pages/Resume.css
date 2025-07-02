@@ -181,9 +181,17 @@
 }
 
 .exp-title-line {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
   font-size: 0.95rem;
   line-height: 1.4;
   margin-bottom: 0.25rem;
+  gap: 1rem;
+}
+
+.exp-title-company {
+  flex: 1;
 }
 
 .exp-title-line strong {
@@ -195,16 +203,25 @@
   text-decoration: underline;
 }
 
-.exp-duration-location {
+.exp-duration {
   font-size: 0.875rem;
   color: #6b7280;
+  white-space: nowrap;
+}
+
+.tech-stack-location-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 0.75rem 0;
+  gap: 1rem;
 }
 
 .tech-stack {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
-  margin: 0.75rem 0;
+  flex: 1;
 }
 
 .tech-tag {
@@ -223,7 +240,7 @@
   gap: 0.25rem;
   font-size: 0.875rem;
   color: #6b7280;
-  margin-bottom: 0.75rem;
+  white-space: nowrap;
 }
 
 .exp-location svg {
@@ -360,6 +377,26 @@
   
   .name {
     font-size: 1.875rem;
+  }
+  
+  .tech-stack-location-row {
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: flex-start;
+  }
+  
+  .exp-location {
+    white-space: normal;
+  }
+  
+  .exp-title-line {
+    flex-direction: column;
+    gap: 0.25rem;
+    align-items: flex-start;
+  }
+  
+  .exp-duration {
+    white-space: normal;
   }
 }
 

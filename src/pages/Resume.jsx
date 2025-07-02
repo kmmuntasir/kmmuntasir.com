@@ -99,27 +99,29 @@ const Resume = () => {
               {recentExperience.map((exp, index) => (
                 <div key={index} className="experience-item">
                   <div className="exp-header">
-                    <div className="exp-title-info">
-                      <div className="exp-title-line">
-                        <strong>{exp.title}</strong>, <span className="company-link">{exp.company}</span>, <em>{exp.companyType}</em>
+                    <div className="exp-title-line">
+                      <div className="exp-title-company">
+                        <strong>{exp.title}</strong>, <span className="company-link">{exp.company}</span>
                       </div>
-                      <div className="exp-duration-location">
-                        <span className="exp-duration">{exp.duration}</span>
+                      <div className="exp-duration">
+                        {exp.duration}
                       </div>
                     </div>
                   </div>
                   
-                  {exp.stack && exp.stack.length > 0 && (
-                    <div className="tech-stack">
-                      {exp.stack.map((tech, techIndex) => (
-                        <span key={techIndex} className="tech-tag">{tech}</span>
-                      ))}
+                  <div className="tech-stack-location-row">
+                    {exp.stack && exp.stack.length > 0 && (
+                      <div className="tech-stack">
+                        {exp.stack.map((tech, techIndex) => (
+                          <span key={techIndex} className="tech-tag">{tech}</span>
+                        ))}
+                      </div>
+                    )}
+                    
+                    <div className="exp-location">
+                      <MapPin size={12} />
+                      {exp.location}
                     </div>
-                  )}
-                  
-                  <div className="exp-location">
-                    <MapPin size={12} />
-                    {exp.location}
                   </div>
                   
                   <ul className="exp-details">

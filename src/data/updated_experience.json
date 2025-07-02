@@ -51,7 +51,10 @@
       "url": "https://www.trivago.com/",
       "text": "trivago.com"
     },
-    "stack": [],
+    "stack": [
+      "Java",
+      "Kotlin"
+    ],
     "details": [
       "Position affected by company restructuring and workforce reduction"
     ]
