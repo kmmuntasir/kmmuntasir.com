@@ -1,0 +1,26 @@
+[
+  {
+    "title": "ACM ICPC Asia Regional",
+    "type": "Programming Contest",
+    "years": ["2011", "2012", "2015"],
+    "description": "International Collegiate Programming Contest"
+  },
+  {
+    "title": "National Collegiate Programming Contest",
+    "type": "Programming Contest", 
+    "years": ["2015"],
+    "description": "National level programming competition"
+  },
+  {
+    "title": "Intra University Programming Contests",
+    "type": "Programming Contest",
+    "years": ["2012", "2013", "2015"],
+    "description": "Inter-university programming competitions"
+  },
+  {
+    "title": "In-Campus Programming Contest",
+    "type": "Programming Contest",
+    "years": ["2010", "2011", "2012", "2013", "2015"],
+    "description": "University internal programming competitions"
+  }
+]

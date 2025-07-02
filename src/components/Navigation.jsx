@@ -87,6 +87,15 @@ const Navigation = () => {
               contact
             </Link>
           </li>
+          <li>
+            <Link 
+              to="/resume" 
+              className={isActive('/resume') ? 'active' : ''}
+              onClick={closeMenu}
+            >
+              resume
+            </Link>
+          </li>
         </ul>
       </div>
     </nav>
