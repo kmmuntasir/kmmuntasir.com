@@ -27,18 +27,8 @@ const Resume = () => {
   // Get the most recent experiences for the resume
   const recentExperience = experienceData.slice(0, 6);
 
-  // At a glance points
-  const atAGlancePoints = [
-    "Experience in design and implementation of highly scalable complex SaaS and/or cloud applications.",
-    "Comfortable in Agile and DevOps Culture.",
-    "Experience with microservices, messaging, and event-driven architecture.",
-    "Experience in testing and CI/CD.",
-    "Proficient with version controlling best practices.",
-    "Analytical and problem-solving skills.",
-    "Strong knowledge in Object-Oriented Programming, Data Structure and Algorithms.",
-    "Expertise in the Unix environment.",
-    "Excellent interpersonal skills and team player"
-  ];
+  // Flatten all skills from different categories into one array
+  const allSkills = Object.values(skillsData).flat();
 
   return (
     <div className="resume-container">
@@ -103,16 +93,6 @@ const Resume = () => {
         <div className="resume-main">
           {/* Left Column */}
           <div className="left-column">
-            {/* At a Glance Section */}
-            <section className="resume-section">
-              <h3 className="section-title">At a glance</h3>
-              <ul className="at-a-glance-list">
-                {atAGlancePoints.map((point, index) => (
-                  <li key={index}>{point}</li>
-                ))}
-              </ul>
-            </section>
-
             {/* Experience Section */}
             <section className="resume-section">
               <h3 className="section-title">Experience</h3>
@@ -158,15 +138,11 @@ const Resume = () => {
             <section className="resume-section">
               <h3 className="section-title">Skills</h3>
               <div className="skills-container">
-                {Object.entries(skillsData).map(([category, skills]) => (
-                  <div key={category} className="skill-category">
-                    <div className="skills-tags">
-                      {skills.map((skill, index) => (
-                        <span key={index} className="skill-tag">{skill}</span>
-                      ))}
-                    </div>
-                  </div>
-                ))}
+                <div className="skills-tags">
+                  {allSkills.map((skill, index) => (
+                    <span key={index} className="skill-tag">{skill}</span>
+                  ))}
+                </div>
               </div>
             </section>
 

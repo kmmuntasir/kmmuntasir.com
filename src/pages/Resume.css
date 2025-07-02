@@ -162,18 +162,7 @@
   padding-bottom: 0.5rem;
 }
 
-/* At a Glance Styles */
-.at-a-glance-list {
-  margin: 0;
-  padding-left: 1.2rem;
-  list-style-type: disc;
-}
 
-.at-a-glance-list li {
-  margin-bottom: 0.5rem;
-  font-size: 0.875rem;
-  line-height: 1.4;
-}
 
 /* Experience Styles */
 .experience-item {
@@ -281,9 +270,7 @@
   transition: all 0.2s;
 }
 
-.skill-tag:hover {
-  background: #e5e7eb;
-}
+
 
 /* Education Styles */
 .education-item {
@@ -433,7 +420,7 @@
     font-size: 0.8rem;
   }
   
-  .exp-details li, .at-a-glance-list li {
+  .exp-details li {
     font-size: 0.8rem;
   }
   
