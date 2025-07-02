@@ -184,6 +184,9 @@ a:hover {
 .hero {
   padding: var(--spacing-3xl) 0;
   text-align: center;
+  display: flex;
+  align-items: center;
+  min-height: 100%;
 }
 
 .hero-name {
