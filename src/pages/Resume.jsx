@@ -153,7 +153,7 @@ const Resume = () => {
                 <div key={index} className="education-item">
                   <div className="edu-header">
                     <div className="edu-degree">
-                      {edu.degree.replace('M.Sc', 'Master of CSE').replace('B.Sc', 'Bachelor of CSE')}
+                      {edu.degree}
                     </div>
                     <div className="edu-year">({edu.year})</div>
                   </div>
