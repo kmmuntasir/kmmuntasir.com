@@ -338,13 +338,14 @@ a:hover {
 .timeline-item::before {
   content: '';
   position: absolute;
-  left: -var(--spacing-xl);
+  left: calc(-1 * var(--spacing-xl) - 1px);
   top: var(--spacing-sm);
   width: 12px;
   height: 12px;
   background-color: var(--color-grey);
   border-radius: 50%;
   transform: translateX(-50%);
+  z-index: 1;
 }
 
 .timeline-content {
