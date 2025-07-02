@@ -402,6 +402,111 @@ a:hover {
   border: var(--border-width) solid var(--color-light-grey);
 }
 
+/* Projects Masonry Grid */
+.project-section {
+  margin-bottom: var(--spacing-3xl);
+}
+
+.company-title {
+  font-size: var(--font-size-2xl);
+  font-weight: 700;
+  color: var(--color-dark-grey);
+  position: relative;
+  padding-bottom: var(--spacing-md);
+}
+
+.company-title::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 2px;
+  background-color: var(--color-grey);
+}
+
+.masonry-grid {
+  column-count: 3;
+  column-gap: var(--spacing-lg);
+  column-fill: balance;
+}
+
+.masonry-item {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: var(--spacing-lg);
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+
+.project-card {
+  width: 100%;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.project-link {
+  margin-top: var(--spacing-md);
+  padding-top: var(--spacing-md);
+  border-top: var(--border-width) solid var(--color-light-grey);
+}
+
+.project-link a {
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  color: var(--color-dark-grey);
+  border: none;
+  transition: color 0.2s ease;
+}
+
+.project-link a:hover {
+  color: var(--color-black);
+}
+
+/* Project Filters - Desktop Only */
+.project-filters {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: var(--spacing-sm);
+  margin-bottom: var(--spacing-2xl);
+  padding: var(--spacing-lg) 0;
+}
+
+.filter-btn {
+  background-color: var(--color-ash);
+  color: var(--color-dark-grey);
+  border: var(--border-width) solid var(--color-light-grey);
+  padding: var(--spacing-sm) var(--spacing-lg);
+  border-radius: var(--border-radius);
+  font-family: var(--font-family);
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.filter-btn:hover {
+  background-color: var(--color-light-grey);
+  border-color: var(--color-grey);
+}
+
+.filter-btn.active {
+  background-color: var(--color-black);
+  color: var(--color-white);
+  border-color: var(--color-black);
+}
+
+.filter-btn.active:hover {
+  background-color: var(--color-dark-grey);
+}
+
 /* Contact */
 .contact-info {
   display: grid;
@@ -509,6 +614,18 @@ a:hover {
   .container {
     padding: 0 var(--spacing-md);
   }
+
+  .masonry-grid {
+    column-count: 2;
+  }
+
+  .company-title {
+    font-size: var(--font-size-xl);
+  }
+
+  .project-filters {
+    display: none;
+  }
 }
 
 @media (max-width: 480px) {
@@ -538,6 +655,18 @@ a:hover {
   
   .timeline-content {
     padding: var(--spacing-md);
+  }
+
+  .masonry-grid {
+    column-count: 1;
+  }
+
+  .company-title {
+    font-size: var(--font-size-lg);
+  }
+
+  .project-filters {
+    display: none;
   }
 }
 
