@@ -34,7 +34,7 @@ const Skills = () => {
               <div>
                 <h4 className="mb-sm">Backend Expertise</h4>
                 <ul className="timeline-details">
-                  <li>10+ years of experience in backend development</li>
+                  <li>12+ years of experience in backend development</li>
                   <li>Built systems serving 50+ million users</li>
                   <li>Expertise in microservices architecture</li>
                   <li>Experience with high-traffic applications</li>
@@ -62,7 +62,7 @@ const Skills = () => {
                 <p>Users Served</p>
               </div>
               <div className="text-center">
-                <h4 className="text-grey">10+</h4>
+                <h4 className="text-grey">12+</h4>
                 <p>Years Experience</p>
               </div>
               <div className="text-center">

@@ -120,7 +120,7 @@ a:hover {
 .section-title::after {
   content: '';
   position: absolute;
-  bottom: -var(--spacing-sm);
+  bottom: -var(--spacing-lg);
   left: 50%;
   transform: translateX(-50%);
   width: 60px;
