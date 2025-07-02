@@ -1,75 +1,96 @@
-import { useState } from 'react'
-import { Link, useLocation } from 'react-router-dom'
-import { Menu, X } from 'lucide-react'
+import { useState } from 'react';
+import { Link, useLocation } from 'react-router-dom';
 
 const Navigation = () => {
-  const [isMenuOpen, setIsMenuOpen] = useState(false)
-  const location = useLocation()
-
-  const navItems = [
-    { path: '/', label: 'Home' },
-    { path: '/about', label: 'About' },
-    { path: '/experience', label: 'Experience' },
-    { path: '/projects', label: 'Projects' },
-    { path: '/skills', label: 'Skills' },
-    { path: '/contact', label: 'Contact' }
-  ]
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const location = useLocation();
 
   const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen)
-  }
+    setIsMenuOpen(!isMenuOpen);
+  };
+
+  const closeMenu = () => {
+    setIsMenuOpen(false);
+  };
+
+  const isActive = (path) => {
+    return location.pathname === path;
+  };
 
   return (
     <nav className="nav">
-      <div className="container">
-        <div className="flex justify-between items-center py-4">
-          <Link to="/" className="text-xl font-bold text-primary">
-            Muntasir Billah
-          </Link>
-          
-          {/* Desktop Navigation */}
-          <div className="hidden md:flex gap-sm">
-            {navItems.map((item) => (
-              <Link
-                key={item.path}
-                to={item.path}
-                className={`nav-link ${location.pathname === item.path ? 'active' : ''}`}
-              >
-                {item.label}
-              </Link>
-            ))}
-          </div>
-
-          {/* Mobile Menu Button */}
-          <button
-            className="md:hidden p-2"
-            onClick={toggleMenu}
-            aria-label="Toggle menu"
-          >
-            {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
-          </button>
-        </div>
-
-        {/* Mobile Navigation */}
-        {isMenuOpen && (
-          <div className="md:hidden py-4 border-t border-gray-200">
-            <div className="flex flex-col gap-sm">
-              {navItems.map((item) => (
-                <Link
-                  key={item.path}
-                  to={item.path}
-                  className={`nav-link ${location.pathname === item.path ? 'active' : ''}`}
-                  onClick={() => setIsMenuOpen(false)}
-                >
-                  {item.label}
-                </Link>
-              ))}
-            </div>
-          </div>
-        )}
+      <div className="nav-container">
+        <Link to="/" className="nav-logo" onClick={closeMenu}>
+          ./muntasir
+        </Link>
+        
+        <button 
+          className="nav-toggle"
+          onClick={toggleMenu}
+          aria-label="Toggle navigation menu"
+        >
+          {isMenuOpen ? '✕' : '☰'}
+        </button>
+        
+        <ul className={`nav-menu ${isMenuOpen ? 'active' : ''}`}>
+          <li>
+            <Link 
+              to="/" 
+              className={isActive('/') ? 'active' : ''}
+              onClick={closeMenu}
+            >
+              home
+            </Link>
+          </li>
+          <li>
+            <Link 
+              to="/about" 
+              className={isActive('/about') ? 'active' : ''}
+              onClick={closeMenu}
+            >
+              about
+            </Link>
+          </li>
+          <li>
+            <Link 
+              to="/experience" 
+              className={isActive('/experience') ? 'active' : ''}
+              onClick={closeMenu}
+            >
+              experience
+            </Link>
+          </li>
+          <li>
+            <Link 
+              to="/projects" 
+              className={isActive('/projects') ? 'active' : ''}
+              onClick={closeMenu}
+            >
+              projects
+            </Link>
+          </li>
+          <li>
+            <Link 
+              to="/skills" 
+              className={isActive('/skills') ? 'active' : ''}
+              onClick={closeMenu}
+            >
+              skills
+            </Link>
+          </li>
+          <li>
+            <Link 
+              to="/contact" 
+              className={isActive('/contact') ? 'active' : ''}
+              onClick={closeMenu}
+            >
+              contact
+            </Link>
+          </li>
+        </ul>
       </div>
     </nav>
-  )
-}
+  );
+};
 
-export default Navigation 
+export default Navigation; 

@@ -1,95 +1,81 @@
-import { Mail, Phone, MapPin } from 'lucide-react'
-import basicData from '../data/basic.json'
-import teachingData from '../data/teaching.json'
+import basicData from '../data/basic.json';
 
 const About = () => {
   return (
     <div className="section">
       <div className="container">
-        <div className="fade-in-up">
-          <h1 className="text-center mb-16">About Me</h1>
-          
-          <div className="grid grid-2 gap-lg mb-16">
-            <div className="card">
-              <h2 className="mb-6">Personal Information</h2>
-              <div className="space-y-4">
-                <div className="flex items-center gap-md">
-                  <Mail className="text-primary" size={20} />
-                  <div>
-                    <p className="font-medium">Email</p>
-                    <a href={`mailto:${basicData.email}`} className="text-primary hover:underline">
-                      {basicData.email}
-                    </a>
-                  </div>
-                </div>
-                
-                <div className="flex items-center gap-md">
-                  <Phone className="text-primary" size={20} />
-                  <div>
-                    <p className="font-medium">Phone</p>
-                    <a href={`tel:${basicData.phone}`} className="text-primary hover:underline">
-                      {basicData.phone}
-                    </a>
-                  </div>
-                </div>
-                
-                <div className="flex items-center gap-md">
-                  <MapPin className="text-primary" size={20} />
-                  <div>
-                    <p className="font-medium">Location</p>
-                    <p className="text-light">{basicData.address}</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="card">
-              <h2 className="mb-6">Professional Summary</h2>
-              <p className="text-light leading-relaxed">
-                Senior Staff Software Engineer with over 12 years of experience in full-stack development, 
-                cloud architecture, and team leadership. Proven track record of leading projects from 
-                conception to production, serving millions of users across fintech, e-commerce, and 
-                enterprise software domains.
+        <h2 className="section-title">About Me</h2>
+        
+        <div className="grid grid-2">
+          <div className="card">
+            <h3 className="card-title">Personal Info</h3>
+            <div className="card-content">
+              <p><strong>Name:</strong> {basicData.name}</p>
+              <p><strong>Title:</strong> {basicData.designation}</p>
+              <p><strong>Company:</strong> {basicData.company}</p>
+              <p><strong>Location:</strong> {basicData.address}</p>
+              <p><strong>Email:</strong> 
+                <a href={`mailto:${basicData.email}`}> {basicData.email}</a>
               </p>
-              <br />
-              <p className="text-light leading-relaxed">
-                Passionate about mentoring junior developers, implementing best practices, and building 
-                scalable systems that drive business growth. Experience working with international teams 
-                and delivering solutions for global markets.
+              <p><strong>Phone:</strong> {basicData.phone}</p>
+            </div>
+          </div>
+          
+          <div className="card">
+            <h3 className="card-title">Professional Summary</h3>
+            <div className="card-content">
+              <p>
+                I'm a Senior Staff Software Engineer with over 10 years of experience in 
+                building scalable web applications and microservices. My expertise spans 
+                across multiple technologies including Node.js, Spring Boot, AWS, and various 
+                database systems.
+              </p>
+              <p>
+                Throughout my career, I've had the privilege of working with companies ranging 
+                from fintech giants serving 50+ million users to European e-commerce platforms. 
+                I'm passionate about system architecture, clean code practices, and mentoring 
+                the next generation of developers.
+              </p>
+              <p>
+                When I'm not coding, I enjoy teaching programming concepts and have served as 
+                a part-time lecturer at multiple universities, sharing knowledge in programming, 
+                database management, and web development.
               </p>
             </div>
           </div>
-
-          <div className="card">
-            <h2 className="mb-6">Teaching Experience</h2>
-            <div className="space-y-6">
-              {teachingData.map((teaching, index) => (
-                <div key={index} className="timeline-item">
-                  <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start gap-2 mb-2">
-                    <h3 className="font-medium">{teaching.title}</h3>
-                    <span className="text-sm text-light">{teaching.duration}</span>
-                  </div>
-                  <p className="mb-2">
-                    <a href={teaching.link.url} target="_blank" rel="noopener noreferrer" className="text-primary font-medium hover:underline">
-                      {teaching.company}
-                    </a>
-                  </p>
-                  <ul className="text-light space-y-1">
-                    {teaching.details.map((detail, idx) => (
-                      <li key={idx} className="flex items-start gap-3">
-                        <span className="text-primary flex-shrink-0 mt-0.5">•</span>
-                        <span>{detail}</span>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              ))}
+        </div>
+        
+        <div className="card mt-xl">
+          <h3 className="card-title">What I Do</h3>
+          <div className="card-content">
+            <div className="grid grid-3">
+              <div className="skill-category">
+                <h4>Backend Development</h4>
+                <p className="text-grey">
+                  Building robust APIs and microservices using Node.js, Spring Boot, 
+                  and various database technologies.
+                </p>
+              </div>
+              <div className="skill-category">
+                <h4>System Architecture</h4>
+                <p className="text-grey">
+                  Designing scalable systems that can handle millions of users with 
+                  high availability and performance.
+                </p>
+              </div>
+              <div className="skill-category">
+                <h4>Team Leadership</h4>
+                <p className="text-grey">
+                  Leading development teams, conducting interviews, and mentoring 
+                  junior developers to grow their skills.
+                </p>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default About 
+export default About; 
