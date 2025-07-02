@@ -49,6 +49,24 @@
     ]
   },
   {
+    "company": "Trivago",
+    "companyType": "Travel Company",
+    "location": "Düsseldorf, Germany",
+    "duration": " Aug 2022 - Aug 2022",
+    "title": "Backend Software Engineer",
+    "link": {
+      "url": "https://www.trivago.com/",
+      "text": "trivago.com"
+    },
+    "stack": [
+    ],
+    "details": [
+      "Trivago restructured in the previous month of my joining.",
+      "All new joiners in August 2022 were laid off.",
+      "On paper, I was employed for eight days."
+    ]
+  },
+  {
     "company": "bKash Limited",
     "companyType": "Fintech Company",
     "location": "Dhaka",
