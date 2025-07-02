@@ -11,16 +11,6 @@ const Projects = () => {
             <span key={idx} className="tech-tag">{tech}</span>
           ))}
         </div>
-        {project.link && (
-          <a 
-            href={project.link} 
-            target="_blank" 
-            rel="noopener noreferrer"
-            className="hero-link"
-          >
-            View Project
-          </a>
-        )}
       </div>
     </div>
   );
