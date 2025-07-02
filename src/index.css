@@ -282,9 +282,10 @@ a:hover {
 }
 
 .skill-category {
-  background-color: var(--color-ash);
+  background-color: transparent;
   padding: var(--spacing-lg);
   border-radius: var(--border-radius);
+  border: var(--border-width) solid var(--color-light-grey);
   text-align: center;
 }
 
