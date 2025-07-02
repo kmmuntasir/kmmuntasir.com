@@ -3,8 +3,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="container">
         <p>
-          © {new Date().getFullYear()} Muntasir Billah Munna. 
-          Built with React.js & Vite.
+          © {new Date().getFullYear()} Muntasir Billah Munna
         </p>
         <p>
           <a href="https://github.com/kmmuntasir" target="_blank" rel="noopener noreferrer">
