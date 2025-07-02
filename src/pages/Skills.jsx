@@ -1,12 +1,11 @@
 import skillsData from '../data/skills.json';
 
 const Skills = () => {
-  const skillCategories = [
-    { title: 'Programming Languages', skills: skillsData[0] },
-    { title: 'Backend Technologies', skills: skillsData[1] },
-    { title: 'Frontend Technologies', skills: skillsData[2] },
-    { title: 'Database and Cloud', skills: skillsData[3] }
-  ];
+  // Convert the skills object to an array of { title, skills } objects
+  const skillCategories = Object.entries(skillsData).map(([title, skills]) => ({
+    title,
+    skills
+  }));
 
   return (
     <div className="section">
