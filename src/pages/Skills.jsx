@@ -5,7 +5,7 @@ const Skills = () => {
     { title: 'Programming Languages', skills: skillsData[0] },
     { title: 'Backend Technologies', skills: skillsData[1] },
     { title: 'Frontend Technologies', skills: skillsData[2] },
-    { title: 'Cloud & Data Storage', skills: skillsData[3] }
+    { title: 'Database and Cloud', skills: skillsData[3] }
   ];
 
   return (

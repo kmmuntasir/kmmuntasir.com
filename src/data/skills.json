@@ -1,6 +1,6 @@
 [
   ["Javascript", "PHP", "Java", "Dart", "C", "C++"],
-  ["Node.js", "Express.js", "Spring Boot", "Symfony"],
-  ["Vue.js", "jQuery", "Flutter", "Codeigniter"],
-  ["AWS", "GCP", "Docker", "CI/CD", "MySQL", "PostgreSQL", "Redis", "DynamoDB", "RabbiMq"]
+  ["Node.js", "Express.js", "Spring Boot", "Symfony", "Codeigniter"],
+  ["React.js", "Next.js", "Vue.js", "jQuery", "Flutter"],
+  ["MySQL", "PostgreSQL", "Redis", "DynamoDB", "AWS", "GCP", "Docker", "CI/CD", "RabbiMq"]
 ] 
