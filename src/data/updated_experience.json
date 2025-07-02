@@ -12,16 +12,12 @@
     "stack": [
       "Express.js",
       "Spring Boot",
-      "AWS",
-      "Docker",
-      "RabbitMQ"
+      "AWS"
     ],
     "details": [
-      "Led 2 projects from conception to production deployment",
-      "Managed cross-functional teams of 3-5 engineers across multiple projects",
-      "Developed AI-powered sales automation modules using <em>OpenAI GPT Model</em>",
-      "Conducted technical interviews and established hiring standards for development team",
-      "Mentored junior engineers and <em>organized technical training workshops</em>"
+      "Led 2 projects from conception to production, managing teams of 3-5 engineers",
+      "Built AI-powered sales automation modules using <em>OpenAI GPT Model</em>",
+      "Conducted interviews and mentored engineers with <em>technical training workshops</em>"
     ]
   },
   {
@@ -36,16 +32,13 @@
     },
     "stack": [
       "Symfony",
-      "RabbitMQ",
       "GCP",
       "Docker",
       "Kubernetes"
     ],
     "details": [
-      "Served multi-country user base across European Union markets",
-      "Built scalable modules for Supply Chain Management System",
-      "Implemented automated tracking system for delivery carrier integration",
-      "Enhanced existing microservices architecture for improved performance"
+      "Built scalable Supply Chain Management modules for EU markets",
+      "Implemented automated delivery tracking and enhanced microservices architecture"
     ]
   },
   {
@@ -60,7 +53,7 @@
     },
     "stack": [],
     "details": [
-      "Position affected by company restructuring and workforce reduction in August 2022"
+      "Position affected by company restructuring and workforce reduction"
     ]
   },
   {
@@ -77,16 +70,12 @@
       "Node.js",
       "Spring Boot",
       "Flutter",
-      "AWS",
-      "Docker"
+      "AWS"
     ],
     "details": [
-      "Served fintech platform with <em>50+ million active users</em>",
-      "Architected and implemented <em>auto-debit module</em> handling peak-hour transaction loads",
-      "Built system middleware using Spring Boot and DynamoDB for high-performance operations",
-      "Developed AWS Lambda functions for auto-debit backend infrastructure",
-      "Optimized AWS deployment strategies reducing operational costs",
-      "Led technical interviews for Solution Engineering team expansion"
+      "Architected <em>auto-debit module</em> for <em>50+ million users</em> handling peak-hour loads",
+      "Built high-performance middleware with Spring Boot, DynamoDB, and AWS Lambda",
+      "Optimized AWS deployments and led technical interviews for team expansion"
     ]
   },
   {
@@ -102,16 +91,13 @@
     "stack": [
       "Node.js",
       "Spring Boot",
-      "Docker",
       "Codeigniter",
       "Wordpress"
     ],
     "details": [
-      "Served <em>25+ corporate clients and 8,000+ individual users</em> across 5-year tenure",
-      "Designed microservice architecture for Smart Squirrels ERP system",
-      "Developed comprehensive POS system using Codeigniter framework",
-      "<em>Automated backup infrastructure</em> for central server operations",
-      "Built custom websites and applications for diverse client portfolio"
+      "Served <em>25+ corporate clients and 8,000+ users</em> across 5-year tenure",
+      "Designed ERP microservice architecture and <em>automated backup infrastructure</em>",
+      "Developed comprehensive POS system and custom client applications"
     ]
   },
   {
@@ -131,8 +117,7 @@
       "HTML/CSS"
     ],
     "details": [
-      "Delivered web solutions for <em>8 corporate clients and 1,000+ end users</em>",
-      "Developed custom websites using Codeigniter and WordPress platforms"
+      "Delivered web solutions for <em>8 corporate clients and 1,000+ users</em>"
     ]
   }
 ] 
