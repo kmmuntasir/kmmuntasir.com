@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { MapPin, Mail, Phone, Globe, Github, Linkedin, ArrowLeft, Printer } from 'lucide-react';
 import basicData from '../data/basic.json';
-import experienceData from '../data/experience.json';
+import experienceData from '../data/updated_experience.json';
 import skillsData from '../data/skills.json';
 import educationData from '../data/education.json';
 import participationData from '../data/participation.json';

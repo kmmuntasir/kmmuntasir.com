@@ -1,0 +1,138 @@
+[
+  {
+    "company": "Exabyting",
+    "companyType": "Software Company",
+    "location": "Dhaka, Bangladesh",
+    "duration": "Sep 2023 - Present",
+    "title": "Senior Staff Software Engineer",
+    "link": {
+      "url": "https://exabyting.com/",
+      "text": "exabyting.com"
+    },
+    "stack": [
+      "Express.js",
+      "Spring Boot",
+      "AWS",
+      "Docker",
+      "RabbitMQ"
+    ],
+    "details": [
+      "Led 2 projects from conception to production deployment",
+      "Managed cross-functional teams of 3-5 engineers across multiple projects",
+      "Developed AI-powered sales automation modules using <em>OpenAI GPT Model</em>",
+      "Conducted technical interviews and established hiring standards for development team",
+      "Mentored junior engineers and <em>organized technical training workshops</em>"
+    ]
+  },
+  {
+    "company": "METRO Markets",
+    "companyType": "E-commerce Company",
+    "location": "Düsseldorf, Germany",
+    "duration": "Aug 2022 - Aug 2023",
+    "title": "Software Engineer",
+    "link": {
+      "url": "https://metro-markets.de/",
+      "text": "metro-markets.de"
+    },
+    "stack": [
+      "Symfony",
+      "RabbitMQ",
+      "GCP",
+      "Docker",
+      "Kubernetes"
+    ],
+    "details": [
+      "Served multi-country user base across European Union markets",
+      "Built scalable modules for Supply Chain Management System",
+      "Implemented automated tracking system for delivery carrier integration",
+      "Enhanced existing microservices architecture for improved performance"
+    ]
+  },
+  {
+    "company": "Trivago",
+    "companyType": "Travel Company",
+    "location": "Düsseldorf, Germany",
+    "duration": "Aug 2022",
+    "title": "Backend Software Engineer",
+    "link": {
+      "url": "https://www.trivago.com/",
+      "text": "trivago.com"
+    },
+    "stack": [],
+    "details": [
+      "Position affected by company restructuring and workforce reduction in August 2022"
+    ]
+  },
+  {
+    "company": "bKash Limited",
+    "companyType": "Fintech Company",
+    "location": "Dhaka, Bangladesh",
+    "duration": "Jun 2019 - Jul 2022",
+    "title": "Senior Engineer → Assistant Lead Engineer",
+    "link": {
+      "url": "https://www.bkash.com/",
+      "text": "bKash.com"
+    },
+    "stack": [
+      "Node.js",
+      "Spring Boot",
+      "Flutter",
+      "AWS",
+      "Docker"
+    ],
+    "details": [
+      "Served fintech platform with <em>50+ million active users</em>",
+      "Architected and implemented <em>auto-debit module</em> handling peak-hour transaction loads",
+      "Built system middleware using Spring Boot and DynamoDB for high-performance operations",
+      "Developed AWS Lambda functions for auto-debit backend infrastructure",
+      "Optimized AWS deployment strategies reducing operational costs",
+      "Led technical interviews for Solution Engineering team expansion"
+    ]
+  },
+  {
+    "company": "Smart Squirrels",
+    "companyType": "Software Farm",
+    "location": "Dhaka, Bangladesh",
+    "duration": "Jun 2014 - May 2019",
+    "title": "Software Engineer → Senior Software Engineer",
+    "link": {
+      "url": "https://thesmartsquirrels.com/",
+      "text": "thesmartsquirrels.com"
+    },
+    "stack": [
+      "Node.js",
+      "Spring Boot",
+      "Docker",
+      "Codeigniter",
+      "Wordpress"
+    ],
+    "details": [
+      "Served <em>25+ corporate clients and 8,000+ individual users</em> across 5-year tenure",
+      "Designed microservice architecture for Smart Squirrels ERP system",
+      "Developed comprehensive POS system using Codeigniter framework",
+      "<em>Automated backup infrastructure</em> for central server operations",
+      "Built custom websites and applications for diverse client portfolio"
+    ]
+  },
+  {
+    "company": "4axiz IT Limited",
+    "companyType": "Software Farm",
+    "location": "Dhaka, Bangladesh",
+    "duration": "Mar 2013 - May 2014",
+    "title": "Junior Software Engineer",
+    "link": {
+      "url": "https://fouraxiz.com/",
+      "text": "fouraxiz.com"
+    },
+    "stack": [
+      "Codeigniter",
+      "Wordpress",
+      "jQuery",
+      "HTML/CSS"
+    ],
+    "details": [
+      "Delivered web solutions for <em>8 corporate clients and 1,000+ end users</em>",
+      "Developed custom websites using Codeigniter and WordPress platforms"
+    ]
+  }
+] 
