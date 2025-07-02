@@ -41,6 +41,7 @@
 
 html {
   scroll-behavior: smooth;
+  height: 100%;
 }
 
 body {
@@ -51,6 +52,22 @@ body {
   background-color: var(--color-white);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+}
+
+#root {
+  height: 100%;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.App main {
+  flex: 1;
+  padding-top: 80px;
 }
 
 /* Typography */
@@ -164,9 +181,8 @@ a:hover {
 
 /* Hero Section */
 .hero {
-  padding: calc(80px + var(--spacing-3xl)) 0 var(--spacing-3xl);
+  padding: var(--spacing-3xl) 0;
   text-align: center;
-  background-color: var(--color-ash);
 }
 
 .hero-name {
@@ -478,7 +494,7 @@ a:hover {
 
 @media (max-width: 480px) {
   .hero {
-    padding: calc(80px + var(--spacing-xl)) 0 var(--spacing-xl);
+    padding: var(--spacing-xl) 0;
   }
   
   .section {
