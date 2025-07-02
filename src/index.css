@@ -341,9 +341,9 @@ a:hover {
 }
 
 .timeline-content {
-  background-color: var(--color-ash);
   padding: var(--spacing-lg);
   border-radius: var(--border-radius);
+  border: var(--border-width) solid var(--color-light-grey);
 }
 
 .timeline-header {
