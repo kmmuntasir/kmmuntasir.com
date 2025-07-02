@@ -453,12 +453,23 @@ a:hover {
     transform: translateY(-100%);
     opacity: 0;
     visibility: hidden;
+    gap: 0;
   }
   
   .nav-menu.active {
     transform: translateY(0);
     opacity: 1;
     visibility: visible;
+  }
+  
+  .nav-menu li {
+    margin: 0;
+  }
+  
+  .nav-menu a {
+    display: block;
+    width: 100%;
+    padding: var(--spacing-sm) 0;
   }
   
   .nav-toggle {
