@@ -156,5 +156,26 @@
       "Developed Smart Squirrels POS system with Codeigniter.",
       "Developed websites with Codeigniter and Wordpress for various companies."
     ]
+  },
+  {
+    "company": "4axiz IT Limited",
+    "companyType": "Software Farm",
+    "location": "Dhaka",
+    "duration": "Mar 2013 - May 2014",
+    "title": "JuniorSoftware Engineer",
+    "link": {
+      "url": "https://fouraxiz.com/",
+      "text": "fouraxiz.com"
+    },
+    "stack": [
+      "Codeigniter",
+      "Wordpress",
+      "jQuery",
+      "HTML/CSS"
+    ],
+    "details": [
+      "Served a user/customer base of around <em>8 companies and 1000 individuals</em>.",
+      "Developed websites with Codeigniter and Wordpress for various companies."
+    ]
   }
 ] 
