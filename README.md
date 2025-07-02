@@ -1,175 +1,171 @@
-# Muntasir Billah Munna - Portfolio Website
+# 🌊 Muntasir Billah Munna - Portfolio Website
 
-A modern, responsive portfolio website built with React.js and Vite, showcasing professional experience, projects, and skills of a Senior Staff Software Engineer with 12+ years of experience.
+A professional, nerdy, and geeky portfolio website built with React.js and Vite, showcasing the career and projects of a Senior Staff Software Engineer.
 
-## 🌟 Features
+## 🚀 Features
 
-- **Modern Design**: Clean, professional design following a light blue design system
-- **Fully Responsive**: Mobile-first design that works perfectly on all devices
-- **React Router**: Smooth navigation between different sections
-- **Performance Optimized**: Built with Vite for fast loading and optimal performance
-- **Accessible**: WCAG AA compliant with proper focus states and semantic HTML
-- **SEO Optimized**: Proper meta tags and semantic structure
-
-## 🚀 Tech Stack
-
-- **Frontend**: React.js 18
-- **Build Tool**: Vite
-- **Routing**: React Router DOM
-- **Icons**: Lucide React
-- **Styling**: Custom CSS with design system
-- **Font**: Inter (Google Fonts)
-
-## 📱 Sections
-
-- **Home**: Hero section with introduction and social links
-- **About**: Personal information and teaching experience
-- **Experience**: Professional work history with detailed achievements
-- **Projects**: Portfolio showcase organized by company/category
-- **Skills**: Technical skills categorized by type
-- **Contact**: Contact information and social media links
+- **Modern React.js Architecture**: Built with React.js 19+ and Vite for optimal performance
+- **Mobile-Responsive Design**: Fully responsive design that works on all devices
+- **React Router Navigation**: Smooth client-side routing with React Router DOM
+- **Nerdy/Geeky Design**: Monospace fonts (Fira Code), grayscale color scheme, no animations
+- **Professional Sections**: Home, About, Experience, Projects, Skills, and Contact pages
+- **Timeline Experience**: Visual timeline for professional and teaching experience
+- **Project Portfolio**: Comprehensive showcase of projects across different companies
+- **Skills Categorization**: Organized technical skills by categories
+- **SEO Optimized**: Proper meta tags and semantic HTML structure
 
 ## 🎨 Design System
 
-The website follows a light, modern design system with:
+Following the design guide specifications:
+- **Colors**: White, Ash (#f5f5f5), Grey (#808080), Black (#000000)
+- **Typography**: Fira Code monospace font family
+- **No Animations**: Clean, static design focused on content
+- **Professional Layout**: Cards, grids, and timeline components
 
-- **Primary Color**: Sky Blue (#60A5FA)
-- **Typography**: Inter font family
-- **Spacing**: Consistent spacing scale
-- **Components**: Reusable cards, buttons, and navigation elements
-- **Responsive**: Mobile-first approach with breakpoints at 768px and 1024px
+## 🛠️ Tech Stack
 
-## 🛠️ Installation & Setup
-
-1. **Clone the repository**
-   ```bash
-   git clone <repository-url>
-   cd portfolio-website
-   ```
-
-2. **Install dependencies**
-   ```bash
-   npm install
-   ```
-
-3. **Start development server**
-   ```bash
-   npm run dev
-   ```
-
-4. **Build for production**
-   ```bash
-   npm run build
-   ```
-
-5. **Preview production build**
-   ```bash
-   npm run preview
-   ```
+- **Frontend**: React.js 19.1.0
+- **Build Tool**: Vite 7.0.0
+- **Routing**: React Router DOM 7.1.1
+- **Styling**: Custom CSS with CSS Variables
+- **Fonts**: Google Fonts (Fira Code)
 
 ## 📁 Project Structure
 
 ```
-portfolio-website/
-├── public/
-│   └── vite.svg
-├── src/
-│   ├── components/
-│   │   └── Navigation.jsx
-│   ├── data/
-│   │   ├── basic.json
-│   │   ├── experience.json
-│   │   ├── portfolio.json
-│   │   ├── skills.json
-│   │   └── teaching.json
-│   ├── pages/
-│   │   ├── About.jsx
-│   │   ├── Contact.jsx
-│   │   ├── Experience.jsx
-│   │   ├── Home.jsx
-│   │   ├── Projects.jsx
-│   │   └── Skills.jsx
-│   ├── App.jsx
-│   ├── index.css
-│   └── main.jsx
-├── index.html
-├── package.json
-└── README.md
+src/
+├── components/
+│   ├── Navigation.jsx    # Navigation bar with mobile menu
+│   └── Footer.jsx        # Footer component
+├── pages/
+│   ├── Home.jsx          # Hero section and introduction
+│   ├── About.jsx         # Personal information and summary
+│   ├── Experience.jsx    # Professional and teaching timeline
+│   ├── Projects.jsx      # Portfolio projects by company
+│   ├── Skills.jsx        # Technical skills and achievements
+│   └── Contact.jsx       # Contact information and links
+├── data/
+│   ├── basic.json        # Personal and contact information
+│   ├── experience.json   # Professional work experience
+│   ├── portfolio.json    # Projects and portfolio items
+│   ├── skills.json       # Technical skills by category
+│   └── teaching.json     # Teaching experience
+├── App.jsx               # Main app component with routing
+├── main.jsx              # React app entry point
+└── index.css             # Custom CSS styles
 ```
 
-## 📊 Data Structure
+## 🚀 Getting Started
 
-The website uses JSON files to store content:
+### Prerequisites
+- Node.js (version 16 or higher)
+- npm or yarn
 
-- `basic.json`: Personal information and social links
-- `experience.json`: Professional work history
-- `portfolio.json`: Projects organized by company
-- `skills.json`: Technical skills categorized by type
-- `teaching.json`: Academic teaching experience
+### Installation
 
-## 🎯 Key Features
+1. Clone the repository:
+```bash
+git clone <repository-url>
+cd kmmuntasir.com
+```
 
-### Responsive Navigation
-- Desktop: Horizontal navigation bar
-- Mobile: Hamburger menu with slide-down navigation
+2. Install dependencies:
+```bash
+npm install
+```
 
-### Professional Experience Timeline
-- Detailed 12+ years work history with company links
-- Technology stacks for each role
-- Key achievements and responsibilities
+3. Start the development server:
+```bash
+npm run dev
+```
 
-### Project Portfolio
-- Organized by company/category
-- External links where available
-- Technology tags for each project
+4. Open your browser and visit `http://localhost:5173`
 
-### Skills Showcase
-- Categorized technical skills
-- Professional statistics
-- Key competencies breakdown
+### Building for Production
 
-### Contact Integration
-- Direct email and phone links
-- Social media integration
-- Professional networking links
+```bash
+npm run build
+```
+
+The built files will be in the `dist/` directory.
+
+### Preview Production Build
+
+```bash
+npm run preview
+```
+
+## 📱 Responsive Design
+
+The website is fully responsive with breakpoints at:
+- **Mobile**: 480px and below
+- **Tablet**: 768px and below
+- **Desktop**: 769px and above
+
+## 🎯 Key Sections
+
+### Home
+Hero section with name, title, and quick links to social profiles.
+
+### About
+Personal information, professional summary, and core competencies.
+
+### Experience
+Timeline view of professional experience at companies like:
+- Exabyting (Senior Staff Software Engineer)
+- METRO Markets (Software Engineer)
+- bKash Limited (Assistant Lead Engineer & Senior Engineer)
+- Smart Squirrels (Senior Software Engineer & Software Engineer)
+
+Plus teaching experience at universities.
+
+### Projects
+Portfolio projects organized by company, including:
+- **Exabyting**: Vilpak, OpenAI Training Dataset Generator, Empatick
+- **METRO Markets**: Delivery tracking, returns automation, label generation
+- **Smart Squirrels**: ERP systems, POS software, inventory management
+- **Freelance**: Mobile apps, admin panels, backend systems
+- **Personal**: ISP management, online judge, library systems
+
+### Skills
+Technical skills categorized into:
+- Programming Languages
+- Frameworks & Libraries
+- Cloud & DevOps
+- Databases
+- Message Queues
+
+### Contact
+Multiple ways to get in touch including email, phone, and social media links.
 
 ## 🔧 Customization
 
-To customize the website with your own information:
+### Updating Content
+All content is stored in JSON files in the `src/data/` directory:
+- `basic.json`: Personal information and contact details
+- `experience.json`: Work experience entries
+- `portfolio.json`: Project portfolio items
+- `skills.json`: Technical skills arrays
+- `teaching.json`: Teaching experience entries
 
-1. **Update data files** in `src/data/` with your information
-2. **Modify colors** in `src/index.css` CSS variables
-3. **Add/remove sections** by updating routes in `App.jsx`
-4. **Update meta tags** in `index.html` for SEO
-
-## 📱 Browser Support
-
-- Chrome (latest)
-- Firefox (latest)
-- Safari (latest)
-- Edge (latest)
-
-## 🚀 Deployment
-
-The website can be deployed to any static hosting service:
-
-- **Vercel**: `npm run build` then deploy `dist` folder
-- **Netlify**: Connect repository for automatic deployments
-- **GitHub Pages**: Use GitHub Actions for deployment
-- **AWS S3**: Upload `dist` folder to S3 bucket
+### Styling
+The design system uses CSS custom properties (variables) defined in `src/index.css`. Key variables include:
+- Colors: `--color-white`, `--color-ash`, `--color-grey`, `--color-black`
+- Typography: `--font-family`, font size variables
+- Spacing: `--spacing-xs` through `--spacing-3xl`
 
 ## 📄 License
 
 This project is open source and available under the [MIT License](LICENSE).
 
-## 👨‍💻 Author
+## 👨‍💻 Developer
 
 **Muntasir Billah Munna**
 - Email: kmmuntasir@gmail.com
-- LinkedIn: [linkedin.com/in/kmmuntasir](https://linkedin.com/in/kmmuntasir)
 - GitHub: [github.com/kmmuntasir](https://github.com/kmmuntasir)
+- LinkedIn: [linkedin.com/in/kmmuntasir](https://linkedin.com/in/kmmuntasir)
 - Website: [kmmuntasir.com](https://kmmuntasir.com)
 
 ---
 
-Built with ❤️ using React.js and Vite
+Built with ❤️ using React.js & Vite
