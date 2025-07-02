@@ -3,9 +3,9 @@ import skillsData from '../data/skills.json';
 const Skills = () => {
   const skillCategories = [
     { title: 'Programming Languages', skills: skillsData[0] },
-    { title: 'Backend Frameworks', skills: skillsData[1] },
-    { title: 'Cloud & Infrastructure', skills: skillsData[2] },
-    { title: 'Databases & Frontend', skills: skillsData[3] }
+    { title: 'Backend Technologies', skills: skillsData[1] },
+    { title: 'Frontend Technologies', skills: skillsData[2] },
+    { title: 'Cloud & Data Storage', skills: skillsData[3] }
   ];
 
   return (
