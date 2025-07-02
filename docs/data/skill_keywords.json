@@ -1,0 +1,7 @@
+[
+  ["Javascript", "PHP", "Dart", "Java", "C", "C++"],
+  ["Node.js", "Express.js", "Symfony", "Spring Boot", "Flutter", "Vue.js", "jQuery", "Codeigniter"],
+  ["GCP", "AWS", "Docker", "CI/CD"],
+  ["MySQL", "PostgreSQL", "Redis", "DynamoDB"],
+  ["RabbiMq"]
+]

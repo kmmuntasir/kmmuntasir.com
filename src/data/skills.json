@@ -1,0 +1,7 @@
+{
+  "languages": ["Javascript", "PHP", "Dart", "Java", "C", "C++"],
+  "frameworks": ["Node.js", "Express.js", "Symfony", "Spring Boot", "Flutter", "Vue.js", "jQuery", "Codeigniter"],
+  "cloud": ["GCP", "AWS", "Docker", "CI/CD"],
+  "databases": ["MySQL", "PostgreSQL", "Redis", "DynamoDB"],
+  "messaging": ["RabbitMQ"]
+} 

@@ -1,0 +1,142 @@
+[
+  {
+    "company": "Exabyting",
+    "companyType": "Software Company",
+    "location": "Dhaka, Bangladesh",
+    "duration": " Sep 2023 - Present",
+    "title": "Senior Staff Software Engineer",
+    "link": {
+      "url": "https://exabyting.com/",
+      "text": "exabyting.com"
+    },
+    "stack": [
+      "Express.js",
+      "Spring Boot",
+      "AWS",
+      "Docker",
+      "RabbitMQ"
+    ],
+    "details": [
+      "Led 2 projects from scratch to production.",
+      "Led various teams of 3-5 engineers.",
+      "Developed various modules for a project that uses <em>OpenAI GPT Model</em> to automate sales support.",
+      "Interviewed new candidates for the dev team.",
+      "Mentored multiple junior engineers and <em>arranged training workshops</em>."
+    ]
+  },
+  {
+    "company": "METRO Markets",
+    "companyType": "E-commerce Company",
+    "location": "Düsseldorf, Germany",
+    "duration": " Aug 2022 - Aug 2023",
+    "title": "Software Engineer",
+    "link": {
+      "url": "https://metro-markets.de/",
+      "text": "metro-markets.de"
+    },
+    "stack": [
+      "Symfony",
+      "RabbitMQ",
+      "GCP",
+      "Docker",
+      "Kubernetes"
+    ],
+    "details": [
+      "Served a user base spanning across multiple countries in the European Union.",
+      "Developed various modules for Supply Chain Management System.",
+      "Worked on an automated tracking mechanism for delivery carriers.",
+      "Added features to existing microservices."
+    ]
+  },
+  {
+    "company": "bKash Limited",
+    "companyType": "Fintech Company",
+    "location": "Dhaka",
+    "duration": "May 2022 - Jul 2022",
+    "title": "Assistant Lead Engineer",
+    "link": {
+      "url": "https://www.bkash.com/",
+      "text": "bKash.com"
+    },
+    "stack": [
+      "Node.js",
+      "AWS",
+      "Docker"
+    ],
+    "details": [
+      "Served a user base of more than <em>57 million</em>.",
+      "Worked on AWS deployment optimization.",
+      "Contribution in designing system architecture for several new projects."
+    ]
+  },
+  {
+    "company": "bKash Limited",
+    "companyType": "Fintech Company",
+    "location": "Dhaka",
+    "duration": "Jun 2019 - Apr 2022",
+    "title": "Senior Engineer",
+    "link": {
+      "url": "https://www.bkash.com/",
+      "text": "bKash.com"
+    },
+    "stack": [
+      "Node.js",
+      "Spring Boot",
+      "Flutter",
+      "AWS",
+      "Docker"
+    ],
+    "details": [
+      "Served a user base of more than <em>50 million</em>.",
+      "Worked on system middleware using Spring Boot and DynamoDB.",
+      "<em>Designed auto-debit module</em> to handle peak-hour transactions.",
+      "Wrote AWS Lambda with node.js for the <em>auto-debit middleware backend</em>.",
+      "Interviewed new candidates for the Solution Engineering team."
+    ]
+  },
+  {
+    "company": "Smart Squirrels",
+    "companyType": "Software Farm",
+    "location": "Dhaka",
+    "duration": "Jan 2017 - May 2019",
+    "title": "Senior Software Engineer",
+    "link": {
+      "url": "https://thesmartsquirrels.com/",
+      "text": "thesmartsquirrels.com"
+    },
+    "stack": [
+      "Node.js",
+      "Spring Boot",
+      "Docker",
+      "Codeigniter",
+      "Wordpress"
+    ],
+    "details": [
+      "Served a user/customer base of around <em>25 companies and 8000 individuals</em>.",
+      "Designed several microservice module architectures for SS ERP",
+      "<em>Automated the backup service</em> for the central server of SS ERP."
+    ]
+  },
+  {
+    "company": "Smart Squirrels",
+    "companyType": "Software Farm",
+    "location": "Dhaka",
+    "duration": "Jun 2014 - Dec 2016",
+    "title": "Software Engineer",
+    "link": {
+      "url": "https://thesmartsquirrels.com/",
+      "text": "thesmartsquirrels.com"
+    },
+    "stack": [
+      "Codeigniter",
+      "Wordpress",
+      "jQuery",
+      "HTML/CSS"
+    ],
+    "details": [
+      "Served a user/customer base of around <em>15 companies and 2000 individuals</em>.",
+      "Developed Smart Squirrels POS system with Codeigniter.",
+      "Developed websites with Codeigniter and Wordpress for various companies."
+    ]
+  }
+]
