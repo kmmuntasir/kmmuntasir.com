@@ -1,4 +1,5 @@
 import basicData from '../data/basic.json';
+import { getExperienceText } from '../utils/experienceCalculator';
 
 const About = () => {
   return (
@@ -25,7 +26,7 @@ const About = () => {
             <h3 className="card-title">Professional Summary</h3>
             <div className="card-content">
               <p>
-                I'm a Senior Staff Software Engineer with over 12 years of experience in 
+                I'm a Senior Staff Software Engineer with over {getExperienceText()} years of experience in 
                 building scalable web applications and microservices. My expertise spans 
                 across multiple technologies including Node.js, Spring Boot, AWS, and various 
                 database systems.
