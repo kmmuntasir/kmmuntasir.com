@@ -186,7 +186,12 @@ a:hover {
   text-align: center;
   display: flex;
   align-items: center;
+  justify-content: center;
   min-height: 100%;
+}
+
+.hero .container {
+  width: 100%;
 }
 
 .hero-name {
