@@ -43,12 +43,6 @@
     "company": "METRO Markets",
     "projects": [
       {
-        "title": "Delivery Tracking Service",
-        "summary": "Automate collecting real-time tracking data from delivery services like DHL, GLS, Hermes etc.",
-        "tech": "OpenAI, Symfony, RabbitMQ, GCP",
-        "link": null
-      },
-      {
         "title": "Automation of Bulky Returns",
         "summary": "Automate the process of return of bulky-sized products from customers",
         "tech": "Symfony, RabbitMQ, GCP",
@@ -58,6 +52,12 @@
         "title": "Shipment Label Generator",
         "summary": "Generate shipment label for printing in warehouse from carrier API such as: DHL, GLS, Hermes etc.",
         "tech": "Symfony, GCP",
+        "link": null
+      },
+      {
+        "title": "Delivery Tracking Service",
+        "summary": "Automate collecting real-time tracking data from delivery services like DHL, GLS, Hermes etc.",
+        "tech": "OpenAI, Symfony, RabbitMQ, GCP",
         "link": null
       },
       {
@@ -119,6 +119,12 @@
         "link": "https://www.meghdoot.com.bd/"
       },
       {
+        "title": "Web Solution Website and AI Chatbot",
+        "summary": "Internet Service Provider website and AI Chatbot",
+        "tech": "Groq AI, Express.js, React.js, Docker",
+        "link": "https://websolutiondhaka.com/"
+      },
+      {
         "title": "Cookhuts Backend",
         "summary": "Food delivery system backend supporting the order processing system.",
         "tech": "Spring Boot, AWS",
@@ -135,6 +141,12 @@
   "personal": {
     "company": "Personal Projects",
     "projects": [
+      {
+        "title": "Groq AI API Proxy",
+        "summary": "A backend proxy adapter for Groq AI for using in the frontend",
+        "tech": "Groq AI, Express.js, Docker",
+        "link": "https://github.com/kmmuntasir/groq-api-proxy"
+      },
       {
         "title": "Omni ISP",
         "summary": "Business Management Software for Internet Service Providers (currently running for 8 providers serving almost 50,000 users nationwide)",

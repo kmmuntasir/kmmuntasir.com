@@ -69,8 +69,9 @@ const Contact = () => {
           </div>
         </div>
         
+        <h2 className="section-title">What I'm Looking For</h2>
+        
         <div className="card">
-          <h3 className="card-title">What I'm Looking For</h3>
           <div className="card-content">
             <div className="grid grid-2">
               <div>
@@ -86,8 +87,8 @@ const Contact = () => {
                 <h4 className="mb-sm">Areas of Interest</h4>
                 <ul className="timeline-details">
                   <li>Scalable backend and intuitive frontend systems</li>
-                  <li>Microservices architecture</li>
-                  <li>Cloud infrastructure (AWS/GCP)</li>
+                  <li>AI-first development and AI Automation of services</li>
+                  <li>Microservices architecture and Cloud infrastructure</li>
                   <li>Team building and mentoring</li>
                 </ul>
               </div>
