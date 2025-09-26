@@ -1,6 +1,43 @@
 {
-  "Programming Languages": ["Javascript", "PHP", "Java", "Dart", "C", "C++"],
-  "Backend Technologies": ["Node.js", "Express.js", "Spring Boot", "Symfony", "Codeigniter"],
-  "Frontend Technologies": ["React.js", "Next.js", "Vue.js", "jQuery", "Flutter"],
-  "Database and Cloud": ["AWS", "GCP", "Docker", "CI/CD", "MySQL", "PostgreSQL", "Redis", "DynamoDB", "RabbiMq"]
+  "Backend Technologies": [
+    "Javascript",
+    "PHP",
+    "Java",
+    "Dart",
+    "C",
+    "C++",
+    "Node.js",
+    "Express.js",
+    "Spring Boot",
+    "Symfony",
+    "Codeigniter"
+  ],
+  "Frontend Technologies": [
+    "React.js",
+    "Next.js",
+    "Vue.js",
+    "jQuery",
+    "Flutter"
+  ],
+  "Database and Cloud": [
+    "AWS",
+    "GCP",
+    "Docker",
+    "CI/CD",
+    "Github Actions",
+    "MySQL",
+    "PostgreSQL",
+    "Redis",
+    "DynamoDB",
+    "RabbiMq"
+  ],
+  "AI Expertise": [
+    "OpenAI",
+    "Gemini",
+    "Groq AI",
+    "Context Engineering",
+    "Github Copilot",
+    "Cursor",
+    "WARP"
+  ]
 } 

@@ -10,16 +10,19 @@
       "text": "exabyting.com"
     },
     "stack": [
+      "OpenAI",
       "Express.js",
       "Spring Boot",
+      "React.js",
       "AWS",
       "Docker",
       "RabbitMQ"
     ],
     "details": [
-      "Led 2 projects from scratch to production.",
-      "Led various teams of 3-5 engineers.",
-      "Developed various modules for a project that uses <em>OpenAI GPT Model</em> to automate sales support.",
+      "Led multiple teams of 4-9 engineers to complete 4 projects from scratch to production.",
+      "Led the team and developed various modules for 3 projects that use <em>OpenAI/Gemini/Groq AI Models</em> to automate various operations.",
+      "Acted as a torch-bearer for the AI integrations and AI-first development process in the company.",
+      "Conducted training sessions and workshops for AI-first development for the team.",
       "Interviewed new candidates for the dev team.",
       "Mentored multiple junior engineers and <em>arranged training workshops</em>."
     ]
@@ -35,6 +38,7 @@
       "text": "metro-markets.de"
     },
     "stack": [
+      "OpenAI",
       "Symfony",
       "RabbitMQ",
       "GCP",
@@ -43,8 +47,10 @@
     ],
     "details": [
       "Served a user base spanning across multiple countries in the European Union.",
+      "Used OpenAI GPT Model to automate the process of updating shipment statuses.",
       "Developed various modules for Supply Chain Management System.",
       "Worked on an automated tracking mechanism for delivery carriers.",
+      "Built a tracking library to work as an adapter for 70+ shipment services",
       "Added features to existing microservices."
     ]
   },
@@ -78,12 +84,14 @@
     },
     "stack": [
       "Node.js",
+      "React.js",
       "AWS",
       "Docker"
     ],
     "details": [
       "Served a user base of more than <em>57 million</em>.",
       "Worked on AWS deployment optimization.",
+      "Built a complete Frontend with React.js for the internal Test Automation Framework",
       "Contribution in designing system architecture for several new projects."
     ]
   },
@@ -100,6 +108,7 @@
     "stack": [
       "Node.js",
       "Spring Boot",
+      "React.js",
       "Flutter",
       "AWS",
       "Docker"
@@ -109,6 +118,8 @@
       "Worked on system middleware using Spring Boot and DynamoDB.",
       "<em>Designed auto-debit module</em> to handle peak-hour transactions.",
       "Wrote AWS Lambda with node.js for the <em>auto-debit middleware backend</em>.",
+      "Built multiple Frontend modules with React.js for several projects.",
+      "Built several complete user journeys with Flutter for the bKash Customer App",
       "Interviewed new candidates for the Solution Engineering team."
     ]
   },
@@ -125,6 +136,7 @@
     "stack": [
       "Node.js",
       "Spring Boot",
+      "React.js",
       "Docker",
       "Codeigniter",
       "Wordpress"
@@ -132,6 +144,7 @@
     "details": [
       "Served a user/customer base of around <em>25 companies and 8000 individuals</em>.",
       "Designed several microservice module architectures for SS ERP",
+      "Built several Frontend modules with React.js for SS POS and SS ERP",
       "<em>Automated the backup service</em> for the central server of SS ERP."
     ]
   },

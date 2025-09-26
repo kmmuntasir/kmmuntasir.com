@@ -5,20 +5,37 @@
       {
         "title": "Vilpak",
         "summary": "Automate the sales support for a Lithuanian packaging materials production company using OpenAI.",
-        "tech": "Express.js, AWS SES, AWS Lambda, Docker, RabbitMQ",
+        "tech": "OpenAI, Express.js, AWS SES, AWS Lambda, Docker, RabbitMQ",
         "link": null
       },
       {
         "title": "Open AI Training Dataset Generator",
         "summary": "Generate millions of combinations from test data and create training dataset for OpenAI GPT Models.",
-        "tech": "Express.js, Docker, RabbitMQ",
+        "tech": "OpenAI, Express.js, Docker, RabbitMQ",
         "link": null
       },
       {
         "title": "Empatick",
-        "summary": "Create a collective process for companies in Europe to create surveys for employees and collect responses.",
-        "tech": "Spring Boot, Node.js, React.js, AWS, Docker, Twilio",
+        "summary": "Create a collective process for companies inside EU to create surveys for employees and collect responses.",
+        "tech": "OpenAI, Spring Boot, Node.js, React.js, AWS, Docker, Twilio",
         "link": "https://empatick.com"
+      },
+      {
+        "title": "AI-Powered Voucher Fraud Detection",
+        "summary": "A backend system to pre-screen newly issued vouchers and identify potential fraudulent offers using Groq AI",
+        "tech": "Groq AI, React.js, Express.js, Docker",
+        "link": null
+      },
+      {
+        "title": "Sogedes AI Flowbuilder",
+        "summary": "Interactive flowchart builder for customer support decision making",
+        "tech": "React.js, ReactFlow",
+        "link": "https://www.sogedes.ai"
+      },
+      {
+        "title": "Exa-AI",
+        "summary": "The Artificially Intelligent HR Operative for the Company",
+        "tech": "Gemini AI, Express.js, React.js, Docker, WebSocket, Slack App Integration"
       }
     ]
   },
@@ -28,7 +45,7 @@
       {
         "title": "Delivery Tracking Service",
         "summary": "Automate collecting real-time tracking data from delivery services like DHL, GLS, Hermes etc.",
-        "tech": "Symfony, RabbitMQ, GCP",
+        "tech": "OpenAI, Symfony, RabbitMQ, GCP",
         "link": null
       },
       {

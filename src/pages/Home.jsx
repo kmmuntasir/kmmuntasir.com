@@ -8,9 +8,9 @@ const Home = () => {
         <h1 className="hero-name">{basicData.name}</h1>
         <h2 className="hero-title">{basicData.designation} <br />@ {basicData.company}</h2>
         <p className="hero-description">
-          Senior Software Engineer with {getExperienceText()} years of experience building scalable web applications, 
-          microservices, and leading development teams. Passionate about clean code, system architecture, 
-          and mentoring developers.
+          Full Stack Software Engineer with {getExperienceText()} years of experience building scalable web applications, 
+          microservices, AI solutions and leading development teams. Passionate about clean code, system architecture, 
+          and mentoring future generations.
         </p>
         <div className="hero-links">
           <a 

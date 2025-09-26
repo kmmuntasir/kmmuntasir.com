@@ -85,7 +85,7 @@ const Contact = () => {
               <div>
                 <h4 className="mb-sm">Areas of Interest</h4>
                 <ul className="timeline-details">
-                  <li>Scalable backend systems</li>
+                  <li>Scalable backend and intuitive frontend systems</li>
                   <li>Microservices architecture</li>
                   <li>Cloud infrastructure (AWS/GCP)</li>
                   <li>Team building and mentoring</li>

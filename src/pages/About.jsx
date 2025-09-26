@@ -26,15 +26,15 @@ const About = () => {
             <h3 className="card-title">Professional Summary</h3>
             <div className="card-content">
               <p>
-                I'm a Senior Staff Software Engineer with over {getExperienceText()} years of experience in 
-                building scalable web applications and microservices. My expertise spans 
-                across multiple technologies including Node.js, Spring Boot, AWS, and various 
+                I'm a Full Stack Software Engineer with over {getExperienceText()} years of experience in 
+                building scalable web applications, microservices and AI solutions. My expertise spans 
+                across multiple technologies including Node.js, Spring Boot, Symfony, React.js, AWS, GCP, OpenAI, and various 
                 database systems.
               </p>
               <p>
                 Throughout my career, I've had the privilege of working with companies ranging 
-                from fintech giants serving 50+ million users to European e-commerce platforms. 
-                I'm passionate about system architecture, clean code practices, and mentoring 
+                from fintech giants serving 50+ million users to European e-commerce platforms and more. 
+                I'm passionate about AI integrations, automation, system architecture, clean code practices, and mentoring 
                 the next generation of developers.
               </p>
               <p>
@@ -51,9 +51,9 @@ const About = () => {
           <div className="card-content">
             <div className="grid grid-3">
               <div className="skill-category">
-                <h4>Backend Development</h4>
+                <h4>Full Stack Development</h4>
                 <p className="text-grey">
-                  Building robust APIs and microservices using Node.js, Spring Boot, 
+                  Building robust systems with APIs and microservices using Node.js, Spring Boot, Symfony, React.js, 
                   and various database technologies.
                 </p>
               </div>

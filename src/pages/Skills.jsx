@@ -26,15 +26,17 @@ const Skills = () => {
           ))}
         </div>
         
-        <div className="card mt-xl">
-          <h3 className="card-title">Professional Highlights</h3>
+        <h2 className="section-title">Professional Highlights</h2>
+        
+        <div className="card">
           <div className="card-content">
             <div className="grid grid-2">
               <div>
-                <h4 className="mb-sm">Backend Expertise</h4>
+                <h4 className="mb-sm">Development Expertise</h4>
                 <ul className="timeline-details">
-                  <li>{getExperienceText()} years of experience in backend development</li>
+                  <li>{getExperienceText()} years of experience in full-stack development</li>
                   <li>Built systems serving 50+ million users</li>
+                  <li>Experience in GenAI app development</li>
                   <li>Expertise in microservices architecture</li>
                   <li>Experience with high-traffic applications</li>
                 </ul>
@@ -42,7 +44,8 @@ const Skills = () => {
               <div>
                 <h4 className="mb-sm">Leadership & Mentoring</h4>
                 <ul className="timeline-details">
-                  <li>Led multiple development teams (3-5 engineers)</li>
+                  <li>Led multiple development teams (4-9 engineers)</li>
+                  <li>Fostered the adoption of AI-first development processes</li>
                   <li>Conducted technical interviews</li>
                   <li>Mentored junior developers</li>
                   <li>Organized training workshops</li>
@@ -51,9 +54,10 @@ const Skills = () => {
             </div>
           </div>
         </div>
+
+        <h2 className="section-title">Key Achievements</h2>
         
         <div className="card">
-          <h3 className="card-title">Key Achievements</h3>
           <div className="card-content">
             <div className="grid grid-3">
               <div className="text-center">
@@ -65,7 +69,7 @@ const Skills = () => {
                 <p>Years Experience</p>
               </div>
               <div className="text-center">
-                <h4 className="text-grey">25+</h4>
+                <h4 className="text-grey">50+</h4>
                 <p>Projects Delivered</p>
               </div>
             </div>
