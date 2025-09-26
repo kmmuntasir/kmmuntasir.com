@@ -5,3 +5,6 @@
 2025-09-26 10:00:00 - Updated "Areas of Interest" in `src/pages/Contact.jsx` to include frontend systems.
 2025-09-26 10:45:00 - Updated `designation` in `src/data/basic.json` to "Senior Full-Stack Software Engineer with AI/ML Expertise".
 2025-09-26 10:45:00 - Added frontend and AI/ML details to `src/data/updated_experience.json` for 'Exabyting' and 'bKash Limited'.
+2025-09-26 11:30:00 - Created `src/data/shortlisted_skills.json` with a subset of skills.
+2025-09-26 11:30:00 - Modified `src/pages/Resume.jsx` to use `shortlisted_skills.json` and `shortlisted_experience.json`.
+2025-09-26 11:30:00 - Renamed `src/data/updated_experience.json` to `src/data/shortlisted_experience.json`.

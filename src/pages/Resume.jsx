@@ -2,8 +2,8 @@ import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { MapPin, Mail, Phone, Globe, Github, Linkedin, ArrowLeft, Download } from 'lucide-react';
 import basicData from '../data/basic.json';
-import experienceData from '../data/updated_experience.json';
-import skillsData from '../data/skills.json';
+import experienceData from '../data/shortlisted_experience.json';
+import skillsData from '../data/shortlisted_skills.json';
 import educationData from '../data/education.json';
 import participationData from '../data/participation.json';
 import './Resume.css';
@@ -33,7 +33,7 @@ const Resume = () => {
   const recentExperience = experienceData.slice(0, 6);
 
   // Flatten all skills from different categories into one array
-  const allSkills = Object.values(skillsData).flat();
+  const allSkills = skillsData.Skills;
 
   return (
     <div className="resume-container">
