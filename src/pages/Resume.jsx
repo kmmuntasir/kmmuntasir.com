@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { MapPin, Mail, Phone, Globe, Github, Linkedin, ArrowLeft, Download } from 'lucide-react';
+import { getExperienceText } from '../utils/experienceCalculator';
 import basicData from '../data/basic.json';
 import experienceData from '../data/shortlisted_experience.json';
 import skillsData from '../data/shortlisted_skills.json';
@@ -73,7 +74,7 @@ const Resume = () => {
           
           <div className="header-center">
             <h1 className="name">{basicData.name}</h1>
-            <h2 className="title">{basicData.designation}</h2>
+            <h2 className="title">{getExperienceText()} years experienced {basicData.designation}</h2>
           </div>
           
           <div className="header-right">
