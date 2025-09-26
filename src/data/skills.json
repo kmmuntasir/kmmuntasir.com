@@ -30,7 +30,7 @@
     "PostgreSQL",
     "Redis",
     "DynamoDB",
-    "RabbiMq"
+    "RabbitMq"
   ],
   "AI Expertise": [
     "OpenAI",
