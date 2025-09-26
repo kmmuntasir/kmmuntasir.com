@@ -74,7 +74,6 @@ const Resume = () => {
           <div className="header-center">
             <h1 className="name">{basicData.name}</h1>
             <h2 className="title">{basicData.designation}</h2>
-            <div className="company">{basicData.company}</div>
           </div>
           
           <div className="header-right">

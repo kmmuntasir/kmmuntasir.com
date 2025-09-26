@@ -10,12 +10,14 @@
       "text": "exabyting.com"
     },
     "stack": [
+      "OpenAI",
+      "Groq AI",
       "Express.js",
-      "Spring Boot",
+      "React.js",
       "AWS"
     ],
     "details": [
-      "Led 2 projects from conception to production, managing teams of 3-5 engineers",
+      "Led 4 projects from conception to production, managing teams of 4-9 engineers",
       "Built AI-powered sales automation modules using <em>OpenAI GPT Model</em>",
       "Conducted interviews and mentored engineers with <em>technical training workshops</em>"
     ]
@@ -31,14 +33,13 @@
       "text": "metro-markets.de"
     },
     "stack": [
+      "OpenAI",
       "Symfony",
-      "GCP",
-      "Docker",
-      "Kubernetes"
+      "GCP"
     ],
     "details": [
       "Built scalable Supply Chain Management modules for EU markets",
-      "Implemented automated delivery tracking and enhanced microservices architecture"
+      "Implemented AI-automated delivery tracking and enhanced microservices architecture"
     ]
   },
   {
@@ -71,13 +72,14 @@
     },
     "stack": [
       "Node.js",
+      "React.js",
       "Spring Boot",
       "Flutter",
       "AWS"
     ],
     "details": [
       "Architected <em>auto-debit module</em> for <em>50+ million users</em> handling peak-hour loads",
-      "Built high-performance middleware with Spring Boot, DynamoDB, and AWS Lambda",
+      "Built middleware with Node.js, Spring Boot, DynamoDB, and AWS Lambda",
       "Optimized AWS deployments and led technical interviews for team expansion"
     ]
   },
@@ -93,9 +95,9 @@
     },
     "stack": [
       "Node.js",
+      "React.js",
       "Spring Boot",
-      "Codeigniter",
-      "Wordpress"
+      "Codeigniter"
     ],
     "details": [
       "Served <em>25+ corporate clients and 8,000+ users</em> across 5-year tenure",
